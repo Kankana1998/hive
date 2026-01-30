@@ -64,7 +64,7 @@ for cmd in "${POSSIBLE_PYTHONS[@]}"; do
                 echo ""
             fi
         else
-            echo -e "${RED}✗${NC} ${CURRENT_CMD[@]} not found"
+            echo -e "${RED}✗${NC} ${CURRENT_CMD[@]} version too old (requires ${PYTHON_MAJOR_VERSION}.${PYTHON_MINOR_VERSION}+)"
             echo ""
         fi
     fi
